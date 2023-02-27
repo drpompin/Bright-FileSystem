@@ -1,0 +1,50 @@
+.App {
+  width: 70%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.FileContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.DisplayContainer {
+    width: 100%;
+}
+
+.FilterSort {
+    display: flex;
+    gap: 40px;
+}
+
+.SortContainer {
+    display: flex;
+    gap: 40px;
+}
+
+.HeaderRow {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.HeaderItem {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.DisplayBody {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 10px;
+}
+
+.FilterInput {
+    height: 21
+}
